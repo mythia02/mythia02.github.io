@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px
+}
+
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+main {
+	padding: 50px;
+}
+
+#weblists {
+	display: flex;
+	gap: 20px;
+}
+
+.web {
+	width: 50px;
+	transition: all 0.5s;
+}
+
+.web:hover {
+	transform: scale(1.5);
+	
+}
+
+.web img {
+	width: 100%;
+}
